@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    background-color: var(--gray-700);
+    font-weight: 900;
+    font-size: 2.5rem;
+
+    
+
+
+    
+    .logo{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .75rem;
+
+    justify-content: center;
+    padding: 5.125rem;
+    }
+    .todo{
+        display: flex;
+        align-items: center;
+    }
+    .to{
+    color:var(--blue)
+    }
+    .do{
+    color:var(--purple-dark) ;
+    }
+}
